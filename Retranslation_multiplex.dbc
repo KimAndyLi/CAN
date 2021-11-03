@@ -1,0 +1,350 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_:
+
+
+BO_ 2566882425 state_machine_status: 8 Vector__XXX
+ SG_ state_machine_status : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2566882169 Retranslation_multiplexed: 8 Vector__XXX
+ SG_ z_z_PTC1_temperature m14 : 41|16@1- (1,0) [0|0] "" Vector__XXX
+ SG_ z_states_stopcharge m14 : 37|4@1+ (1,0) [0|15] "" Vector__XXX
+ SG_ Counter M : 0|4@1+ (1,0) [0|15] "" Vector__XXX
+ SG_ VCVCCU_Charging_state m7 : 36|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ UnderCoolant_HVbattery_error m3 : 22|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ UnderCoolant_HVbattery m3 : 21|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ top_sensor_error m1 : 39|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ top_sensor m1 : 38|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Status_eeprom m8 : 44|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ States_ChargingContactor m7 : 28|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ State_eeprom m8 : 36|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ State_discharge_resistor m7 : 20|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ PositivePDU2_error m2 : 22|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ PositivePDU2 m2 : 21|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ PositivePDU1_error m1 : 22|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ PositivePDU1 m1 : 21|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ PIN_A4_error m5 : 52|12@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ PIN_A4 m5 : 20|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ PDU2_voltage_sensor_error m6 : 52|12@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ PDU2_voltage_sensor m6 : 36|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ PDU1_voltage_sensor_error m6 : 20|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ PDU1_voltage_sensor m6 : 4|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ Pantograph_reserve_logic_states m8 : 28|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Pantograph_reserve_logic m8 : 20|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Pantograph_main_logic_states m8 : 12|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Pantograph_main_logic m8 : 4|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ pantograph_lift_sensor_error m5 : 36|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ pantograph_lift_sensor m5 : 4|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ pantograph_heating_current_error m4 : 36|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ pantograph_heating_current m4 : 4|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ OFF_states m0 : 54|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ NegativePDU2_error m3 : 5|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ NegativePDU2 m3 : 4|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ NegativePDU1_error m1 : 5|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ NegativePDU1 m1 : 4|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ mid_sensor_error m0 : 22|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ mid_sensor m0 : 21|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ kl15_pin m0 : 38|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ K1_voltage m13 : 36|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ K1_value m9 : 10|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ K1_error m11 : 36|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ J1_voltage m13 : 20|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ J1_value m9 : 9|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ J1_error m11 : 20|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ HVIL_error m2 : 39|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ HVIL m2 : 38|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ H1_voltage m13 : 4|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ H1_value m9 : 8|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ H1_error m11 : 4|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ G1_voltage m12 : 52|12@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ G1_value m9 : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ G1_error m10 : 52|12@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ Feedback_K39_error m2 : 5|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ Feedback_K39 m2 : 4|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ F1_voltage m12 : 36|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ F1_value m9 : 6|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ F1_error m10 : 36|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ eeprom_finished_record m0 : 46|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ E1_voltage m12 : 20|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ E1_value m9 : 5|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ E1_error m10 : 20|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ Charge_status_state m7 : 12|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Charge_status_sequence_state m7 : 4|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ bottom_sensor_error m0 : 5|16@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ bottom_sensor m0 : 4|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ B1_voltage m14 : 21|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ B1_value m14 : 4|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ B1_error m14 : 5|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ A1_voltage m12 : 4|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ A1_value m9 : 4|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ A1_error m10 : 4|16@1+ (1,0) [0|65535] "" Vector__XXX
+
+BO_ 2566881913 Retranslation_15: 8 Vector__XXX
+ SG_ B1_voltage : 32|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ B1_value : 16|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ B1_error : 0|16@1+ (1,0) [0|65535] "" Vector__XXX
+
+BO_ 2566881657 Retranslation_14: 8 Vector__XXX
+ SG_ K1_voltage : 32|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ J1_voltage : 16|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ H1_voltage : 0|16@1+ (1,0) [0|65535] "" Vector__XXX
+
+BO_ 2566881401 Retranslation_13: 8 Vector__XXX
+ SG_ G1_voltage : 48|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ F1_voltage : 32|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ E1_voltage : 16|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ A1_voltage : 0|16@1+ (1,0) [0|65535] "" Vector__XXX
+
+BO_ 2566881145 Retranslation_12: 8 Vector__XXX
+ SG_ K1_error : 32|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ J1_error : 16|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ H1_error : 0|16@1+ (1,0) [0|65535] "" Vector__XXX
+
+BO_ 2566880889 Retranslation_11: 8 Vector__XXX
+ SG_ G1_error : 48|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ F1_error : 32|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ E1_error : 16|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ A1_error : 0|16@1+ (1,0) [0|65535] "" Vector__XXX
+
+BO_ 2566880633 Retranslation_10: 8 Vector__XXX
+ SG_ K1_value : 6|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ J1_value : 5|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ H1_value : 4|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ G1_value : 3|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ F1_value : 2|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ E1_value : 1|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ A1_value : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 2566878585 Retranslation_2: 8 Vector__XXX
+ SG_ NegativePDU1_error : 35|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ NegativePDU1 : 34|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ PositivePDU1_error : 18|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ PositivePDU1 : 17|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ top_sensor_error : 1|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ top_sensor : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 2566880377 Retranslation_9: 8 Vector__XXX
+ SG_ Status_eeprom : 40|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ State_eeprom : 32|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Pantograph_reserve_logic_states : 8|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Pantograph_reserve_logic : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Pantograph_main_logic_states : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Pantograph_main_logic : 16|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2566880121 Retranslation_8: 8 Vector__XXX
+ SG_ VCVCCU_Charging_state : 16|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ States_ChargingContactor : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ State_discharge_resistor : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Charge_status_state : 24|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Charge_status_sequence_state : 32|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2566879865 Retranslation_7: 8 Vector__XXX
+ SG_ PDU2_voltage_sensor_error : 16|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ PDU2_voltage_sensor : 0|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ PDU1_voltage_sensor_error : 48|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ PDU1_voltage_sensor : 32|16@1+ (1,0) [0|65535] "" Vector__XXX
+
+BO_ 2566879609 Retranslation_6: 8 Vector__XXX
+ SG_ PIN_A4_error : 16|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ PIN_A4 : 0|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ pantograph_lift_sensor_error : 48|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ pantograph_lift_sensor : 32|16@1+ (1,0) [0|65535] "" Vector__XXX
+
+BO_ 2566879353 Retranslation_5: 8 Vector__XXX
+ SG_ pantograph_heating_current_error : 32|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ pantograph_heating_current : 0|32@1- (1,0) [-2147483648|2147483647] "" Vector__XXX
+
+BO_ 2566879097 Retranslation_4: 8 Vector__XXX
+ SG_ UnderCoolant_HVbattery_error : 18|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ UnderCoolant_HVbattery : 17|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ NegativePDU2_error : 1|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ NegativePDU2 : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 2566878841 Retranslation_3: 8 Vector__XXX
+ SG_ PositivePDU2_error : 35|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ PositivePDU2 : 34|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ HVIL_error : 1|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ HVIL : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Feedback_K39_error : 18|16@1+ (1,0) [0|65535] "" Vector__XXX
+ SG_ Feedback_K39 : 17|1@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 2566878329 Retranslation_1: 8 Vector__XXX
+ SG_ mid_sensor_error : 42|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ mid_sensor : 41|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ bottom_sensor_error : 25|16@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ bottom_sensor : 24|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ eeprom_finished_record : 16|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ OFF_states : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ kl15_pin : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+
+
+
+BA_DEF_  "SAE_J1939_DA_SpecVersion" STRING ;
+BA_DEF_  "SAE_J1939_81_SpecVersion" STRING ;
+BA_DEF_ BO_  "DiagConnection" INT 0 65535;
+BA_DEF_ BO_  "DiagState" ENUM  "No","Yes";
+BA_DEF_ BO_  "DiagResponse" ENUM  "No","Yes";
+BA_DEF_ BO_  "DiagRequest" ENUM  "No","Yes";
+BA_DEF_  "Baudrate" INT 0 10000000;
+BA_DEF_  "DatabaseVersion" STRING ;
+BA_DEF_  "SAE_J1939_75_SpecVersion" STRING ;
+BA_DEF_  "SAE_J1939_73_SpecVersion" STRING ;
+BA_DEF_  "SAE_J1939_71_SpecVersion" STRING ;
+BA_DEF_  "SAE_J1939_21_SpecVersion" STRING ;
+BA_DEF_  "NmType" STRING ;
+BA_DEF_  "NmAsrWaitBusSleepTime" INT 0 65535;
+BA_DEF_  "NmAsrTimeoutTime" INT 0 65535;
+BA_DEF_  "NmAsrRepeatMessageTime" INT 0 65535;
+BA_DEF_ BU_  "NmAsrNodeIdentifier" INT 0 255;
+BA_DEF_ BU_  "NmAsrNode" ENUM  "no","yes";
+BA_DEF_  "NmAsrMessageCount" INT 0 256;
+BA_DEF_ BO_  "NmAsrMessage" ENUM  "no","yes";
+BA_DEF_ BU_  "NmAsrCanMsgReducedTime" INT 0 65535;
+BA_DEF_  "NmAsrCanMsgCycleTime" INT 0 65535;
+BA_DEF_ BU_  "NmAsrCanMsgCycleOffset" INT 0 65535;
+BA_DEF_  "NmAsrBaseAddress" HEX 0 536870911;
+BA_DEF_ BO_  "TpJ1939VarDlc" ENUM  "No","Yes";
+BA_DEF_ SG_  "SigType" ENUM  "Default","Range","RangeSigned","ASCII","Discrete","Control","ReferencePGN","DTC","StringDelimiter","StringLength","StringLengthControl";
+BA_DEF_ SG_  "GenSigEVName" STRING ;
+BA_DEF_ SG_  "GenSigILSupport" ENUM  "No","Yes";
+BA_DEF_ SG_  "GenSigSendType" ENUM  "Cyclic","OnWrite","OnWriteWithRepetition","OnChange","OnChangeWithRepetition","IfActive","IfActiveWithRepetition","NoSigSendType";
+BA_DEF_ BO_  "GenMsgFastOnStart" INT 0 100000;
+BA_DEF_ SG_  "GenSigInactiveValue" INT 0 0;
+BA_DEF_ BO_  "GenMsgCycleTimeFast" INT 0 3600000;
+BA_DEF_ BO_  "GenMsgNrOfRepetition" INT 0 1000000;
+BA_DEF_ SG_  "GenSigStartValue" INT 0 2147483647;
+BA_DEF_ BO_  "GenMsgDelayTime" INT 0 1000;
+BA_DEF_ BO_  "GenMsgILSupport" ENUM  "No","Yes";
+BA_DEF_ BO_  "GenMsgStartDelayTime" INT 0 100000;
+BA_DEF_ BU_  "NodeLayerModules" STRING ;
+BA_DEF_ BU_  "ECU" STRING ;
+BA_DEF_ BU_  "NmJ1939SystemInstance" INT 0 15;
+BA_DEF_ BU_  "NmJ1939System" INT 0 127;
+BA_DEF_ BU_  "NmJ1939ManufacturerCode" INT 0 2047;
+BA_DEF_ BU_  "NmJ1939IndustryGroup" INT 0 7;
+BA_DEF_ BU_  "NmJ1939IdentityNumber" INT 0 2097151;
+BA_DEF_ BU_  "NmJ1939FunctionInstance" INT 0 7;
+BA_DEF_ BU_  "NmJ1939Function" INT 0 255;
+BA_DEF_ BU_  "NmJ1939ECUInstance" INT 0 3;
+BA_DEF_ BU_  "NmJ1939AAC" INT 0 1;
+BA_DEF_ BU_  "NmStationAddress" INT 0 255;
+BA_DEF_ BO_  "GenMsgSendType" ENUM  "cyclic","NotUsed","IfActive","NotUsed","NotUsed","NotUsed","NotUsed","NotUsed","noMsgSendType";
+BA_DEF_ BO_  "GenMsgRequestable" INT 0 1;
+BA_DEF_ BO_  "GenMsgCycleTime" INT 0 3600000;
+BA_DEF_ SG_  "SPN" INT 0 524287;
+BA_DEF_  "DBName" STRING ;
+BA_DEF_  "BusType" STRING ;
+BA_DEF_  "ProtocolType" STRING ;
+BA_DEF_ BO_  "VFrameFormat" ENUM  "StandardCAN","ExtendedCAN","reserved","J1939PG";
+BA_DEF_DEF_  "SAE_J1939_DA_SpecVersion" "";
+BA_DEF_DEF_  "SAE_J1939_81_SpecVersion" "";
+BA_DEF_DEF_  "DiagConnection" 0;
+BA_DEF_DEF_  "DiagState" "No";
+BA_DEF_DEF_  "DiagResponse" "No";
+BA_DEF_DEF_  "DiagRequest" "No";
+BA_DEF_DEF_  "Baudrate" 500000;
+BA_DEF_DEF_  "DatabaseVersion" "";
+BA_DEF_DEF_  "SAE_J1939_75_SpecVersion" "";
+BA_DEF_DEF_  "SAE_J1939_73_SpecVersion" "";
+BA_DEF_DEF_  "SAE_J1939_71_SpecVersion" "";
+BA_DEF_DEF_  "SAE_J1939_21_SpecVersion" "";
+BA_DEF_DEF_  "NmType" "";
+BA_DEF_DEF_  "NmAsrWaitBusSleepTime" 750;
+BA_DEF_DEF_  "NmAsrTimeoutTime" 1000;
+BA_DEF_DEF_  "NmAsrRepeatMessageTime" 400;
+BA_DEF_DEF_  "NmAsrNodeIdentifier" 0;
+BA_DEF_DEF_  "NmAsrNode" "yes";
+BA_DEF_DEF_  "NmAsrMessageCount" 64;
+BA_DEF_DEF_  "NmAsrMessage" "no";
+BA_DEF_DEF_  "NmAsrCanMsgReducedTime" 50;
+BA_DEF_DEF_  "NmAsrCanMsgCycleTime" 100;
+BA_DEF_DEF_  "NmAsrCanMsgCycleOffset" 0;
+BA_DEF_DEF_  "NmAsrBaseAddress" 486506496;
+BA_DEF_DEF_  "TpJ1939VarDlc" "No";
+BA_DEF_DEF_  "SigType" "Default";
+BA_DEF_DEF_  "GenSigEVName" "Env@Nodename_@Signame";
+BA_DEF_DEF_  "GenSigILSupport" "Yes";
+BA_DEF_DEF_  "GenSigSendType" "NoSigSendType";
+BA_DEF_DEF_  "GenMsgFastOnStart" 0;
+BA_DEF_DEF_  "GenSigInactiveValue" 0;
+BA_DEF_DEF_  "GenMsgCycleTimeFast" 0;
+BA_DEF_DEF_  "GenMsgNrOfRepetition" 0;
+BA_DEF_DEF_  "GenSigStartValue" 0;
+BA_DEF_DEF_  "GenMsgDelayTime" 0;
+BA_DEF_DEF_  "GenMsgILSupport" "Yes";
+BA_DEF_DEF_  "GenMsgStartDelayTime" 0;
+BA_DEF_DEF_  "NodeLayerModules" "J1939_IL.dll";
+BA_DEF_DEF_  "ECU" "";
+BA_DEF_DEF_  "NmJ1939SystemInstance" 0;
+BA_DEF_DEF_  "NmJ1939System" 0;
+BA_DEF_DEF_  "NmJ1939ManufacturerCode" 0;
+BA_DEF_DEF_  "NmJ1939IndustryGroup" 0;
+BA_DEF_DEF_  "NmJ1939IdentityNumber" 0;
+BA_DEF_DEF_  "NmJ1939FunctionInstance" 0;
+BA_DEF_DEF_  "NmJ1939Function" 0;
+BA_DEF_DEF_  "NmJ1939ECUInstance" 0;
+BA_DEF_DEF_  "NmJ1939AAC" 0;
+BA_DEF_DEF_  "NmStationAddress" 254;
+BA_DEF_DEF_  "GenMsgSendType" "noMsgSendType";
+BA_DEF_DEF_  "GenMsgRequestable" 1;
+BA_DEF_DEF_  "GenMsgCycleTime" 0;
+BA_DEF_DEF_  "SPN" 0;
+BA_DEF_DEF_  "DBName" "";
+BA_DEF_DEF_  "BusType" "CAN";
+BA_DEF_DEF_  "ProtocolType" "J1939";
+BA_DEF_DEF_  "VFrameFormat" "J1939PG";
+BA_ "NmAsrMessageCount" 256;
+BA_ "Baudrate" 250000;
+BA_ "BusType" "CAN";
+BA_ "DBName" "J1939";
+BA_ "VFrameFormat" BO_ 2566882425 1;
+BA_ "VFrameFormat" BO_ 2566882169 1;
+BA_ "VFrameFormat" BO_ 2566881913 1;
+BA_ "VFrameFormat" BO_ 2566881657 1;
+BA_ "VFrameFormat" BO_ 2566881401 1;
+BA_ "VFrameFormat" BO_ 2566881145 1;
+BA_ "VFrameFormat" BO_ 2566880889 1;
+BA_ "VFrameFormat" BO_ 2566880633 1;
+BA_ "VFrameFormat" BO_ 2566878585 1;
+BA_ "VFrameFormat" BO_ 2566880377 1;
+BA_ "VFrameFormat" BO_ 2566880121 1;
+BA_ "VFrameFormat" BO_ 2566879865 1;
+BA_ "VFrameFormat" BO_ 2566879609 1;
+BA_ "VFrameFormat" BO_ 2566879353 1;
+BA_ "VFrameFormat" BO_ 2566879097 1;
+BA_ "VFrameFormat" BO_ 2566878841 1;
+BA_ "VFrameFormat" BO_ 2566878329 1;
+
